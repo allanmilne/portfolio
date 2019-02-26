@@ -1,4 +1,5 @@
 @import "config"; // links to config file
+@import "menu"; // links to menu file
 
 * {
   box-sizing: border-box; // keeps elements with padding within box model
@@ -28,7 +29,10 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5); // lighten function takes two parameters, primary colour and then how much we want it lightened
+    background: rgba(
+      lighten($primary-color, 2),
+      0.5
+    ); // lighten function takes two parameters, primary colour and then how much we want it lightened
   }
 }
 
@@ -38,7 +42,7 @@ a {
 }
 
 header {
-  position: fixed; // Header bar will remain at top of page when scrolling 
+  position: fixed; // Header bar will remain at top of page when scrolling
   z-index: 2; // Brings element up front - bigger the number, closer to us
   width: 100%;
 }
