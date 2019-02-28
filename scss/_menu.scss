@@ -12,7 +12,7 @@
     width: 28px; // each line is 28px wide
     height: 3px; // each line is 3px high
     margin: 0 0 3px 0; // margin on bottom only
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeOut; // transition
   }
 
@@ -114,14 +114,14 @@
     }
   }
 
-  .nav-link { 
+  .nav-link {
     display: inline-block;
     position: relative;
-    font-size: 30px;  
+    font-size: 30px;
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
