@@ -103,7 +103,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/images/background.jpg);
+    background: url("/images/background.jpg");
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -268,7 +268,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(/images/profile_small.jpg);
+      background: url("/images/profile_small.jpg");
       width: 150px;
       height: 150px; }
   .about-info {
