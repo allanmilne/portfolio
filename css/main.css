@@ -26,7 +26,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -42,14 +41,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: rgba(55, 55, 55, 0.9);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-Branding {
-    background: #444;
+    background: rgba(68, 68, 68, 0.9);
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-Branding.show {
@@ -57,7 +56,7 @@
     .menu-Branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(/images/profile.jpg);
+      background: url("../../images/profile.jpg");
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -103,7 +102,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url("/images/background.jpg");
+    background: url("../../images/background.jpg");
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
