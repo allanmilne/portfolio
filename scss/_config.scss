@@ -1,7 +1,7 @@
 $primary-color: #444; // primary colour variable
 $secondary-color: #eece1a; // primary colour variable
 $show-home-image: true;
-$home-image: url("/images/background.jpg"); // home page background image location
+$home-image: url("../../images/background.jpg"); // home page background image location
 $background-opacity: 0.8;
 
 @mixin easeOut {
