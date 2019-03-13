@@ -94,6 +94,13 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1rem;
+
+    a {
+      &:hover {
+        color: $secondary-color;
+        @include easeOut();
+      }
+    }
   }
 
   .job-1 {
@@ -116,6 +123,15 @@ main {
 }
 
 // Work/Projects
+#work {
+  a {
+    &:hover {
+      color: $secondary-color;
+      @include easeOut();
+    }
+  }
+}
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
