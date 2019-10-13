@@ -1,3 +1,3 @@
 # Allan-Milne-Portfolio
 
-https://github.com/allanmilne/portfolio
+https://allanmilne.github.io/portfolio/
