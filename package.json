@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/belter118/Allan-Milne-Portfolio.git"
+    "url": "git+https://github.com/allanmilne/portfolio.git"
   },
   "author": "Allan Milne",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/belter118/Allan-Milne-Portfolio/issues"
+    "url": "https://github.com/allanmilne/portfolio/issues"
   },
-  "homepage": "https://belter118.github.io/Allan-Milne-Portfolio",
+  "homepage": "https://github.com/allanmilne/portfolio",
   "dependencies": {
-    "gh-pages": "^2.0.1",
-    "node-sass": "^4.11.0"
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.12.0"
   }
 }
