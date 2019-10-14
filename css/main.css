@@ -232,7 +232,7 @@ main#home h1 {
   border-bottom: #eece1a 5px solid;
 }
 .about-info .stack li {
-  list-style-type: none;
+  list-style-type: circle;
 }
 
 #work a:hover {
