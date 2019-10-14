@@ -200,12 +200,10 @@ main#home h1 {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio" "languages frameworks db";
   grid-template-columns: repeat(3, 1fr);
 }
-.about-info .tech-stack li {
-  list-style-type: none;
-}
+
 .about-info .bio-image {
   grid-area: bioimage;
   margin: auto;
@@ -216,23 +214,25 @@ main#home h1 {
   grid-area: bio;
   font-size: 1rem;
 }
-.about-info .bio a:hover {
-  color: #eece1a;
-  transition: all 0.5s ease-out;
+.about-info .bio a {
+  color: #eece1ad0;
 }
-.about-info .job-1 {
-  grid-area: job1;
+.about-info .languages {
+  grid-area: languages;
 }
-.about-info .job-3 {
-  grid-area: job2;
+.about-info .frameworks {
+  grid-area: frameworks;
 }
-.about-info .job-3 {
-  grid-area: job3;
+.about-info .db {
+  grid-area: db;
 }
-.about-info .job {
+.about-info .stack {
   background: #515151;
   padding: 0.5rem;
   border-bottom: #eece1a 5px solid;
+}
+.about-info .stack li {
+  list-style-type: none;
 }
 
 #work a:hover {
@@ -357,7 +357,7 @@ main#home h1 {
     height: 150px;
   }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage" "bio" "languages" "frameworks" "db";
     grid-template-columns: 1fr;
   }
   .projects {
