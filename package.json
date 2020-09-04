@@ -19,6 +19,6 @@
   "homepage": "https://github.com/allanmilne/portfolio",
   "dependencies": {
     "gh-pages": "^2.1.1",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   }
 }
